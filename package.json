@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "node-color-log": "^9.0.0",
+    "simple-node-logger": "^21.8.12"
+  },
+  "scripts": {
+    "equipments:check": "node src/check_equipements"
+  }
+}
