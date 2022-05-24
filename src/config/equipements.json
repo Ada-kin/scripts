@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Fenêtre cuisine",
+        "value": "#[Cuisine][verture n°3][Ouverture]#",
+        "id": 71
+    },
+    {
+        "name": "Fenêtre salon",
+        "value": "#[Salon][DO-2 Détecteur ouverture n°2][Ouverture]#",
+        "id": 79
+    },
+    {
+        "name": "Fenêtre Antoine",
+        "value": "#[Test][DO-8 Détecteur ouverture n°8][Ouverture]#",
+        "id": 88
+    },
+    {
+        "name": "Porte fenêtre",
+        "value": "#[Aucun][DO-4 Détecteur ouverture n°4][Ouverture]#",
+        "id": 88
+    },
+    {
+        "name": "Porte entrée",
+        "value": "#[Aucun][DO-1 Détecteur ouverture n°1][Ouverture]#",
+        "id": 76
+    },
+    {
+        "name": "Fenêtre armoire - chambre Seb Lolo",
+        "value": "#[Test][DO-6 Détecteur ouverture n°6][Ouverture]#",
+        "id": 85
+    },
+    {
+        "name": "Fenêtre Clara",
+        "value": "#[Aucun][DO-9 Détecteur ouverture n°9][Ouverture]#",
+        "id": 91
+    },
+    {
+        "name": "Fenêtre du lit - chambre Seb Lolo ",
+        "value": "#[Test][DO-5 Détecteur ouverture n°5][Ouverture]#",
+        "id": 82
+    },
+    {
+        "name": "Fenêtre Tintin 1",
+        "value": "#[Test][DO-11 Détecteur ouverture n°11][Ouverture]#",
+        "id": 94
+    },
+    {
+        "name": "Fenêtre Tintin 2",
+        "value": "#[Test][DO-10 Détecteur ouverture n°10][Ouverture]#",
+        "id": 97
+    }
+]

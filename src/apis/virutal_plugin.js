@@ -1,24 +1,15 @@
 const axios = require("axios")
 const logger = require('node-color-log');
 
-function getStatus() {
-    axios.get(process.env.BASE_URL + '/core/api/jeeApi.php', {
+const getStatus = (equipement) =>  {
+    return axios.get(process.env.BASE_URL + process.env.URL, {
         params: {
             apikey: process.env.API_KEY,
             plugin: "virtual",
             type: "cmd",
-            id: 71,
-            value: "#[Cuisine][DO-3 Détecteur ouverture n°3][Ouverture]#"
+            id: equipement.id,
+            value: equipement.value
         }
-    })
-    .then(function (response) {
-        logger.info(response.data)
-    })
-    .catch(function (error) {
-        console.error("errr")
-    })
-    .then(function () {
-        // console.debug("here")
     });
 }
 
